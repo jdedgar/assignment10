@@ -1,0 +1,179 @@
+
+/*--------------- NAVIGATION ---------------*/
+.navbar {
+  background-color: #D6FEFF;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  margin: 0;
+  padding: 25px;
+}
+
+.navbar ul {
+  grid-column: 2;
+}
+
+footer {
+  background-color: #D6FEFF;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  width: 100%;
+  margin: 0;
+  padding: 40px;
+}
+
+.footer-nav ul {
+  grid-column: 1;
+}
+
+.navbar li,
+.footer-nav li {
+  display: inline;
+  padding: 25px 40px;
+
+}
+
+.navbar a,
+.footer-nav a {
+  text-decoration: none;
+  color: #0E1C36;
+}
+
+.navbar ul,
+.footer-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  padding: 10px;
+  font-family: "Karla", sans-serif;
+  font-size: 21px;
+  font-weight: 600;
+  
+}
+
+/*--------------- MAIN ---------------*/
+header {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+body {
+  margin: 0;
+  font-family: "Inconsolata", monospace;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+h1 {
+  font-family: "Karla", sans-serif;
+  font-size: 56px;
+  font-weight: bold;
+}
+
+h2 { 
+  font-family: "Karla", sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+
+}
+
+h3 { 
+  font-family: "Karla", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+
+}
+
+.left-column {
+  padding: 50px;
+  margin-top: 20%;
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  z-index:1;
+}
+
+.left-column p {
+  max-width: 500px;
+}
+
+.right-column {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+
+.right-column img {
+  max-height: 1100px;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.projects {
+  display:grid;
+  grid-template-columns: 30% 40% 30%;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column: 2 / span 1;
+  width:100%;
+  height: 100%;
+  gap: 10px;
+}
+.project-grid a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgray;
+}
+
+.project-grid img {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.more-project {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons {
+  background-color: #ed4667;
+  color: #f2f2f2; 
+  padding: 10px 15px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  font-family: "Karla", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none; 
+  border: none; 
+  border-radius: 5px;
+}
+
+.buttons:hover {
+  background-color: #bdd357; 
+}
+
+.services {
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.abilities {
+  padding: 20px;
+}
+.abilities p {
+  font-family: "Inconsolata", monospace;
+  font-weight: 400;
+  font-size: 16px;
+  padding:
+}
+
+/*-------------------------------------------*/
